@@ -132,3 +132,23 @@
 .loginInfo {
   text-align: right; /* 親要素を右寄せにする */
 }
+
+.marginBottom8 {
+  margin-bottom: 8px;
+}
+
+.marginBottom16 {
+  margin-bottom: 16px;
+}
+
+/* バリデーションエラー定義 */
+input.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    color: red;
+}
+
+em.error {
+font-size: 12px;
+color: #cc0000;
+}
