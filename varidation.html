@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- jquery読み込み行 -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<!-- jquery.varidate読み込み行 -->
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/validation-config.js"></script>
+</head>
+<body>
+<h1 class = "title">このページはバリデーションテスト用ページです</h1>
+<form id="myform" action="/dummyServlet">
+  <div class="form">
+    <span class="bold">ユーザー名</span><br>
+    <div  Class="marginBottom16">
+      <input type="text" Class="inputText" name="userName"><br>
+    </div>
+    <span class="bold">メールアドレス</span><br>
+    <div  Class="marginBottom16">
+      <input type="text" Class="inputText" name="email"><br>
+    </div>
+    <span class="bold">パスワード</span><br>
+    <div Class="marginBottom16">
+      <input type="text" Class="inputText" name="password"><br>
+    </div>
+    <button type="submit">送信</button>
+</div>
+</form>
+<a href="/"><span Class="text">TOPへ戻る</span></a>
+</body>
+</html>
